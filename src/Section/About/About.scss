@@ -1,0 +1,133 @@
+.about-landing {
+  width: 100%;
+  
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 3rem 1rem;
+    margin-left: -15px;
+    margin-bottom: -75px;
+  }
+
+  &__inner {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+padding: 4rem 5vw 4.5rem;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin-top: -75px;
+    }
+  }
+
+  &__image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    @media (max-width: 768px) {
+      justify-content: center;
+      order: 2;
+    }
+  }
+
+  &__image-card {
+    width: 90%;
+    //max-width: 520px;
+    border-radius: 2rem;
+    //overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.16);
+    background: #000;
+    margin-left: -50px;
+    @media (max-width: 768px){
+      width: 85%;
+      margin-top: -50px;
+      margin-left: -60px;
+    }
+
+    img {
+      width: 120%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    flex: 1.1;
+
+    @media (max-width: 992px) {
+      order: 1;
+    }
+  }
+
+  &__eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  &__title {
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+    color: #2c2c2c;
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+      font-size: 1.6rem;
+      width: 98%;
+    }
+  }
+
+  &__subtitle {
+    margin: 0 0 2rem;
+    font-size: 0.96rem;
+    line-height: 1.7;
+    color: #686868;
+    max-width: 540px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+      width: 0%;
+      visibility: hidden;
+      height: 0%;
+      display: none;
+    }
+  }
+
+  &__card {
+    padding: 1.3rem 1.4rem;
+    border-radius: 1.4rem;
+    background: #12075f;
+    border: 1px solid rgba(152, 112, 56, 0.12);
+
+    h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      color: #c9c9c9;
+    }
+  }
+}

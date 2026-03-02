@@ -1,0 +1,140 @@
+
+.aboutvireya {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: -1px;
+    }
+    .containerabout{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            width: 90%;
+            font-size: 50px;
+            margin-left: 75px;
+            //margin-top: 10px;
+            margin-bottom: 2px;
+            font-weight: 400;
+            color: #12075f;
+            @media (max-width: 768px) {
+                width: 100%;
+                text-align: left;
+                font-size: 30px;
+                margin-left: 10px;
+            }
+
+        }
+        .container-desk {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        .desk {
+            width: 80%;
+            font-size: 16px;
+            line-height: 1.8;
+            color: rgb(84, 84, 84);
+            @media (max-width: 768px) {
+                width: 90%;
+                text-align: left;
+            }
+        }
+    }
+    .container-benefit {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         @media (max-width: 768px){
+            margin-left: -20px;
+         }
+        .benefit-list{
+            width: 80%;
+            
+            .penawaranpoin {
+                color: rgb(84, 84, 84);
+                padding-top: 15px;
+                span {
+                    font-size: 15px;
+                    color: rgb(84, 84, 84);
+                }
+            }
+        }
+    }
+}
+    .gambarabout {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items:center ;
+        //margin-top: 20px;
+        @media (max-width: 768px) {
+            margin-top: -30px;
+        }
+        img {
+            width: 75%;
+            border-radius: 10px;
+            margin-top: 30px;
+            @media (max-width: 768px) {
+                width: 90%;
+            }
+        }
+    }
+    .containerwa{
+        width: 100%;
+        margin-left: 75px;
+        //margin-top: -10px;
+        @media (max-width: 768px) {
+          width: 0%;
+          visibility: hidden;
+        }
+      .buttonpenawaran {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        //margin-top: 30px;
+        //margin-left: 15%;
+        background-color: #b09c68;
+        width: 40%;
+        
+        padding: 12px 75px;
+        border: 1px solid #b09c68; /* Add this line for black border */
+        border-color: #b09c68;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: light;
+        cursor: pointer;
+        display: inline-block;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        @media (max-width: 768px) {
+          justify-content: center;
+          align-items: center;
+          //margin-left: 15%;
+          //margin-top: -30px;
+          margin-bottom: -20px;
+          width: 0%;
+          visibility: hidden;
+  
+        }
+        &:hover {
+          background-color: transparent;
+          color: #b09c68;
+          border-color: #b09c68;
+        }
+        
+      }
+    }
+}

@@ -1,0 +1,240 @@
+/* Disclaimer.scss */
+.legal {
+  --bg: #ffffff;
+  --card: #FFFFFF;
+  --text: #2b2b2b;
+  --muted: #313131;
+  --line: rgba(30, 30, 30, 0.12);
+
+  --primary: #094274;
+  --soft: #ffffff;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.legal__container {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+/* Hero */
+.legal__hero {
+  padding: 54px 0 18px;
+}
+
+.legal__breadcrumb {
+  margin: 0 0 10px;
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.legal__title {
+  margin: 0;
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.05;
+  letter-spacing: -0.8px;
+  color: var(--primary);
+}
+
+.legal__subtitle {
+  margin: 12px 0 0;
+  max-width: 75ch;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.legal__micro {
+  margin-top: 12px;
+  max-width: 85ch;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.65;
+
+  strong {
+    color: var(--primary);
+    font-weight: 900;
+  }
+}
+
+/* Content */
+.legal__content {
+  padding: 14px 0 84px;
+}
+
+.legal__panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  padding: 26px;
+}
+
+.legal__h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  color: var(--primary);
+}
+
+.legal__p {
+  margin: 0 0 18px;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text);
+
+  strong {
+    font-weight: 900;
+    color: var(--primary);
+  }
+}
+
+.legal__divider {
+  height: 1px;
+  background: var(--line);
+  margin: 18px 0;
+}
+
+/* Company card */
+.legal__companyCard {
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #ffffff;
+  padding: 16px;
+}
+
+.legal__companyTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.legal__companyName {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.legal__companyRole {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.legal__updated {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.legal__rows {
+  display: grid;
+  gap: 10px;
+}
+
+.legal__row {
+  display: flex;
+  gap: 10px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.legal__icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(255,255,255,0.7);
+  border: 1px solid rgba(30,30,30,0.10);
+}
+
+.legal__rowBody {
+  flex: 1;
+}
+
+.legal__link {
+  color: var(--primary);
+  font-weight: 900;
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+.legal__actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+/* Buttons */
+.legal__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 900;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease;
+
+  &:hover { transform: translateY(-1px); }
+}
+
+.legal__btn--primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.legal__btn--ghost {
+  background: rgb(255, 255, 255);
+  color: var(--primary);
+  border-color: rgba(47, 62, 52, 0.18);
+}
+
+/* Bottom links */
+.legal__bottomLinks {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.legal__bottomLink {
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.7);
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 13px;
+
+  &:hover { background: #fff; }
+}
+
+/* Responsive */
+@media (max-width: 520px) {
+  .legal__container {
+    width: min(1120px, calc(100% - 28px));
+  }
+  .legal__panel {
+    padding: 18px;
+    border-radius: 18px;
+  }
+  .legal__companyTop {
+    flex-direction: column;
+  }
+  .legal__updated {
+    white-space: normal;
+  }
+}

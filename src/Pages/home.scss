@@ -1,0 +1,19 @@
+.home {
+
+  @media (max-width: 768px) {
+    overflow-x: clip;
+    width: 100%;
+  }
+  .tombolwa {
+    position: sticky;
+    bottom: 5%;
+    cursor: pointer;
+    width: 90px;
+    left: 93%;
+    @media (max-width: 768px) {
+      //opacity: 0;
+    }
+  }
+  
+}
+

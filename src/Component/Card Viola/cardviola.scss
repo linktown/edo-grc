@@ -1,0 +1,197 @@
+.cardrumahdetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cluster-viola {
+      width: 350px;
+      margin-left: 20px;
+      margin-top: 10px;
+      background: transparent;
+      border-radius: 15px;
+      //box-shadow: 0 0 10px 0 rgb(165, 165, 165);
+      padding-bottom: 10px;
+
+      
+      @media (max-width: 768px) {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+      }
+      @media (max-width: 768px) {
+        width: 95%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+        padding-bottom: 10px;
+      }
+      .slick-dots {
+        bottom: 15px;
+        li {
+          width: 10px;
+        }
+      }
+      .slick-next {
+        right: 25px;
+      }
+      .slick-next::before,
+      .slick-prev::before {
+        font-family: "slick";
+        font-size: 30px;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 25px;
+      }
+      .cluster-image {
+        width: 100%;
+        //height: auto;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .container-rumah {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        //padding: 10px;
+        
+        .nama-rumahviola {
+          width: 100%;
+          font-family: "poppins" sans-serif;
+          font-size: 25px;
+          font-weight: 500;
+          color:#12075f;
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }
+      hr {
+          width: 85%;
+        }
+      .gridmap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .icon {
+          margin-top: 5px;
+          margin-right: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+        }
+        .namalokasi{
+        width: 90%;
+        font-size: 15px;
+        color: #4b4b4b;
+        text-align: center;
+        font-family: "poppins" sans-serif;
+        margin-bottom: 10px;
+        }
+      }
+
+      .containercicilan {
+        width: 100%;
+        margin-top: -5px;
+        display: flex;
+        background-color: white;
+
+        .judulkartuviola {
+          width: 50%;
+          padding: 10px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .startfrom {
+            color: #12075f;
+            font-family: "Poppins" sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: -10px;
+          }
+        }
+        .cicilanviola {
+          width: 50%;
+          //padding: 10px;
+          margin-top: -5px;
+          border-radius: 10px 0px 0 10px;
+          color: #12075f;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          .angka {
+            font-family: "Poppins";
+            font-size: 25px;
+            font-weight: 500;
+          }
+          .ket {
+            font-family: "Poppins";
+            font-size: 10px;
+            padding-top: 10px;
+            font-weight: 500;
+          }
+        }
+      }
+      .gridspek {
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //background: rgb(90,131,103);
+        //padding-top: 15px;
+        //padding-bottom: 15px;
+        border: 1px #12075f;
+        border-radius: 0px 0px 10px 10px;
+        gap: 2px;
+        margin-bottom: 20px;
+        span {
+          color: #091c34;
+            display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 5px;
+          padding-right: 10px;
+          @media (max-width: 768px) {
+            padding-right: 20px;
+            font-size: 12px;
+          }
+        }
+      }
+      .cluster-button {
+        display: flex;
+        justify-content: center;
+        //padding-top: 25px;
+        
+        .cluster-whatsappviola {
+          display: inline-block;
+          padding: 5px 100px;
+          cursor: pointer;
+          border: solid 1px white;
+          border-radius: 20px;
+          background-color: #12075f; 
+          color: #ffffff;
+          font-size: 16px;
+          transition: background-color 0.6s ease, color 0.6s ease;
+          &:hover {
+            background-color: transparent;
+            color: #12075f;
+            border-color: #12075f;
+            
+        }
+        }
+        
+      }
+    }
+  }
+  

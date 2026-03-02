@@ -1,0 +1,44 @@
+.privcont {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #333;
+  line-height: 1.7;
+
+  a {
+    color: #0b57d0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.privacy-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.priv {
+  margin-bottom: 50px;
+}
+
+.priv-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #222;
+  border-left: 4px solid #0b57d0;
+  padding-left: 12px;
+}
+
+.priv-sub {
+  font-size: 16px;
+  padding-left: 16px;
+  p {
+    margin-bottom: 12px;
+  }
+}

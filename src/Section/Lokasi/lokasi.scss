@@ -1,0 +1,176 @@
+.container-lokasi {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    @media (max-width: 768px){
+        flex-direction: column;
+        //padding-bottom: 15px;
+        margin-top: -50px;
+        margin-bottom: 100px;
+    }
+
+    .lokasi {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        @media (max-width: 768px){}
+        .judul-hardsell1{
+            @media (max-width: 768px){  }
+            
+        }
+        .lokasi-tallasa{
+            width: 70%;
+            margin-bottom: 10%;
+            border-radius: 20px;
+            @media (max-width: 768px){
+                width: 80%;
+                border-radius: 5px; 
+                margin-top: -50px;  
+                margin-bottom: -15%;
+            } 
+        }
+    }
+    .container-judul {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .judul-lokasi{
+                @media (max-width: 768px){}
+        
+            h1{
+                font-family: 'Poppins', sans-serif;
+                font-size: 55px;
+                font-weight: 500;
+                color: #12075f;
+                text-align: left;
+                margin-left: 15%;
+
+                @media (max-width: 768px){
+                    font-size: 30px;
+                    text-align: left;
+                    align-items: left;
+                    margin-top: 20%;
+                    margin-left: 40px;
+                }
+            }
+            h2{
+                font-family: 'Poppins', sans-serif;
+                font-size: 55px;
+                font-weight: 500;
+                margin-top: -50px;
+                color: #12075f;
+                text-align: left;
+                margin-left: 15%;
+                @media (max-width: 768px){
+                    width: 100%;
+                    font-size: 30px;
+                    text-align: left;
+                    align-items: left;
+                    margin-top: -3%;
+                    margin-left: 40px;
+                }
+            }
+            h3{
+                font-family: 'Poppins', sans-serif;
+                font-size: 55px;
+                font-weight: 500;
+                margin-top: -50px;
+                color: #12075f;
+                text-align: left;
+                margin-left: 15%;
+                @media (max-width: 768px){
+                    font-size: 30px;
+                    text-align: left;
+                    align-items: left;
+                    margin-top: -3%;
+                    margin-left: 40px;
+                }
+            }
+            .deskripsi {
+                margin-top: -5%;
+            }
+            h4{
+                font-family: 'amiko', sans-serif;
+                font-size: 15px;
+                font-weight: 200;
+                text-align: left;
+                margin-left: 15%;
+                color: #373737;
+                @media (max-width: 768px){
+                    font-size: 15px;
+                    text-align: left;
+                    align-items: left;
+                    margin-left: 40px;
+                }
+            }
+            h5{
+                font-family: 'amiko', sans-serif;
+                font-size: 15px;
+                font-weight: 200;
+                text-align: left;
+                margin-left: 15%;
+                margin-top: -2%;
+                color: #373737;
+                @media (max-width: 768px){
+                    font-size: 15px;
+                    text-align: left;
+                    align-items: left;
+                    margin-top: -5%;
+                    margin-left: 40px;
+                }
+            }
+            h6{
+                font-family: 'amiko', sans-serif;
+                font-size: 15px;
+                font-weight: 200;
+                text-align: left;
+                margin-left: 15%;
+                margin-top: -3%;
+                color: #373737;
+                @media (max-width: 768px){
+                    font-size: 15px;
+                    text-align: left;
+                    align-items: left;
+                    margin-top: -5%;
+                    margin-left: 40px;
+                }
+            }
+        }
+        .button-penawaran{
+            display: flex;
+            justify-content: center; padding: 0%;
+            align-items: center;
+            .buttonpenawaran{
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            margin-top: 30px;
+            background-color: #12075f;
+            padding: 15px 150px;
+            border: 1px solid #12075f; /* Add this line for black border */
+            border-color: #12075f;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: light;
+            cursor: pointer;
+           // display: inline-block;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            @media (max-width: 768px) {
+            width: 80%;
+            margin-right: -40px;
+            margin-bottom: 15%;
+            margin-top: -5%;
+            padding: 15px 50px;
+            }
+            &:hover {
+            background-color: transparent;
+            color: #12075f;
+                }
+            }
+        }
+    }
+}

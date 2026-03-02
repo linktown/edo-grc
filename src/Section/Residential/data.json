@@ -1,0 +1,87 @@
+{
+    "cards": [
+      
+      {
+        "imagesKey": "Visala",
+        "title": "Visala Lake",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "3 Juta/",
+        "details": {
+          "area": "72m²",
+          "buildingSize": "54m²",
+          "floor": "3",
+          "bathrooms": "2"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Visala%20Lake)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      },
+
+      {
+        "imagesKey": "Senopati",
+        "title": "Senopati",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "3 Juta/",
+        "details": {
+          "area": "60m²",
+          "buildingSize": "54m²",
+          "floor": "3",
+          "bathrooms": "2"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Senopati)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      },
+      
+      {
+        "imagesKey": "Hangtuah",
+        "title": "Hangtuah Skyview",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "3 Juta/",
+        "details": {
+          "area": "78m²",
+          "buildingSize": "36m²",
+          "floor": "2",
+          "bathrooms": "1"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Hangtuah)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      },
+       {
+        "imagesKey": "Dharmawangsa",
+        "title": "Dharmawangsa",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "4 Juta/",
+        "details": {
+          "area": "60m²",
+          "buildingSize": "54m²",
+          "floor": "3",
+          "bathrooms": "2"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Dharmawangsa)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      },
+       {
+        "imagesKey": "Araya",
+        "title": "Araya Lake",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "4 Juta/",
+        "details": {
+          "area": "66m²",
+          "buildingSize": "34m²",
+          "floor": "3",
+          "bathrooms": "3"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Araya%20Lake)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      },
+      {
+        "imagesKey": "Ruko",
+        "title": "Ruko Green Walk",
+        "subtitle": "Siap Huni, Subsidi DP, Free PPN",
+        "price": "8 Juta/",
+        "details": {
+          "area": "40m²",
+          "buildingSize": "62m²",
+          "floor": "2",
+          "bathrooms": "2"
+        },
+       "whatsappLink": "https://api.whatsapp.com/send?phone=6285714257425&text=Halo%20Edo,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20Grand%20Residence%20City%20(Ruko%20Green%20Lake)%20https://Inforumahgrc.id/%20&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0"
+      }
+
+      
+    ]
+  }

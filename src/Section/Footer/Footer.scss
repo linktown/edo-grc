@@ -1,0 +1,230 @@
+/* src/components/Footer/Footer.scss */
+
+.footer {
+  background: #12075f; // warna latar belakang halaman footer
+  padding: 56px 0 24px;
+  font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #ffffff;
+
+  &__card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.06);
+    padding: 40px 56px 24px;
+  }
+
+  /* BAGIAN ATAS – 3 KOLOM */
+  &__top {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1.3fr);
+    column-gap: 40px;
+    row-gap: 32px;
+    align-items: flex-start;
+    margin-bottom: 28px;
+  }
+
+  /* BRAND */
+  &__brand {
+    max-width: 420px;
+  }
+
+  &__logo {
+    //height: 100px;
+    width: 60%;
+    margin-top: 25px;
+    
+    transition: filter 0.3s ease;
+    position: relative;
+  }
+
+  &__text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #383838;
+  }
+
+  /* KOLOM GENERIK */
+  &__column {
+    font-size: 0.95rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: #12075f; // warna utama
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li + li {
+      margin-top: 4px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #343434;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #094274;
+      }
+    }
+  }
+
+  /* BLOK INFORMASI KONTAK */
+  &__info-block {
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #094274;
+    margin-bottom: 2px;
+  }
+
+  &__info-text {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #222222;
+  }
+
+  &__link-strong {
+    color: #252525;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  /* MAP */
+  &__map-wrapper {
+    /* biar lebar map seimbang */
+    max-width: 340px;
+    justify-self: end;
+  }
+
+  &__map {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f0e1cc;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  /* BARIS BAWAH DALAM CARD – PRIVACY, TERMS, SITEMAP */
+  &__bottom {
+    border-top: 1px solid #2222222f;
+    padding-top: 14px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.85rem;
+  }
+
+  &__spacer {
+    flex: 1;
+  }
+
+  &__legal-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    a {
+      text-decoration: none;
+      color: #2a2a2a;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #094274;
+      }
+    }
+
+    span {
+      color: #094274;
+    }
+  }
+
+  /* COPYRIGHT DI LUAR CARD */
+  &__copyright {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 0.85rem;
+    color: #ffffff;
+  }
+
+  /* RESPONSIVE */
+
+  @media (max-width: 1024px) {
+    &__card {
+      padding: 32px 28px 20px;
+    }
+
+    &__top {
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1fr);
+      column-gap: 24px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 40px 0 20px;
+
+    &__card {
+      border-radius: 24px;
+      padding: 28px 20px 18px;
+    }
+
+    &__top {
+      grid-template-columns: 1fr;
+    }
+
+    &__brand {
+      max-width: none;
+    }
+
+    &__logo {
+      height: auto;
+      width: 85%;
+      max-width: 280px;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2)) 
+              drop-shadow(0 2px 6px rgba(0, 0, 0, 0.15));
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
+    }
+
+    &__bottom {
+      justify-content: center;
+    }
+
+    &__legal-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 4px;
+    }
+
+    &__map-wrapper {
+      max-width: 100%;
+    }
+  }
+}
